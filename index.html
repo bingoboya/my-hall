@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Threejs</title>
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/three.js/0.149.0/three.min.js"></script> -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <ul class="view"></ul>
+    <!-- 在屏幕左侧相对定位模型图标列表框 -->
+    <div class="left_model_pic_list" style="position: fixed; top: 10px; left: 30px; z-index: 1000;"></div>
+    <!-- 右侧设置选中模型的属性 -->
+    <div class="right_model_attr" style="position: fixed; top: 10px; right: 30px; z-index: 1000;"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
